@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/_20sdp" android:bottomRightRadius="@dimen/_20sdp" android:topLeftRadius="@dimen/_20sdp" android:topRightRadius="@dimen/_20sdp" />
+            <!--            <stroke android:width="@dimen/_2sdp" android:color="@color/tabColorControlActivated" />-->
+
+            <gradient android:endColor="@color/disable_endcolor" android:startColor="@color/disable_startcolor" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/_20sdp" android:bottomRightRadius="@dimen/_20sdp" android:topLeftRadius="@dimen/_20sdp" android:topRightRadius="@dimen/_20sdp" />
+            <!--            <stroke android:width="@dimen/_2sdp" android:color="@color/tabColorControlActivated" />-->
+            <!--            <solid android:color="@color/tabColorControlActivated" />-->
+            <gradient android:endColor="@color/disable_endcolor" android:startColor="@color/disable_startcolor" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/_20sdp" android:bottomRightRadius="@dimen/_20sdp" android:topLeftRadius="@dimen/_20sdp" android:topRightRadius="@dimen/_20sdp" />
+            <!--            <stroke android:width="@dimen/_2sdp" android:color="@color/tabColorControlActivated" />-->
+            <gradient android:endColor="@color/disable_endcolor" android:startColor="@color/disable_startcolor" />
+        </shape>
+    </item>
+</selector>
+

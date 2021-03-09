@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">task</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="description">Description</string>
+    <string name="picture">Picture</string>
+    <string name="invalid_first_name">First name should not be empty</string>
+    <string name="invalid_last_name">Last name should not be empty</string>
+    <string name="invalid_address">Address should not be empty</string>
+    <string name="invalid_email">Enter valid email address</string>
+    <string name="invalid_description">Email should not be empty</string>
+    <string name="invalid_photo">Select profile photo</string>
+    <string name="pick_image">Pick Image</string>
+</resources>
